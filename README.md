@@ -1,4 +1,4 @@
-# monero-ebuild
+# i2pd-ebuild
 A Gentoo ebuild script to automate the installation of the i2pd C++ implementation of i2p.
 
 ## Installation
@@ -12,7 +12,9 @@ A Gentoo ebuild script to automate the installation of the i2pd C++ implementati
 
 ## Usage
 - *cd ~*
-- *sudo /etc/init.d/i2pd start*
+- *sudo /etc/init.d/i2pd start* (OpenRC)
+- *sudo systemctl start i2pd* (Systemd)
+- *i2pd [options]* (Direct invocation)
 
 ## Start i2pd on boot
 - *sudo rc-update add i2pd default* (OpenRC)

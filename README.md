@@ -3,12 +3,12 @@ A Gentoo ebuild script to automate the installation of the i2pd C++ implementati
 
 ## Installation
 - Create a local overlay using this guide: https://wiki.gentoo.org/wiki/Overlay/Local_overlay
-- *mkdir -p /usr/local/portage/net-misc*
+- *sudo mkdir -p /usr/local/portage/net-misc*
 - *cd /usr/local/portage/net-msic*
-- *git clone https://github.com/jebriggsy/i2p-ebuild.git*
-- *mv i2p-ebuild i2p*
-- *chown -R portage:portage /usr/local/portage* 
-- *emerge net-p2p/monero*
+- *sudo git clone https://github.com/jebriggsy/i2p-ebuild.git*
+- *sudo mv i2p-ebuild i2p*
+- *sudo chown -R portage:portage /usr/local/portage* 
+- *sudo emerge net-misc/i2pd*
 
 ## Usage
 - *cd ~*
